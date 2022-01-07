@@ -4,9 +4,26 @@
     <head>
         <meta charset="UTF-8">
         <script src = "sketchpad.js" defer> </script>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <div class="container"></div>
+        <div id = "header">
+            <h1> Sketchpad </h1>
+        </div>
+
+        <div class = "pad">
+            <div class="container"> </div>
+            <button class = "sketch-btn"> Reset Sketchpad </button>
+        </div>
+
+        <div id = sub-header>
+            <h2> Select a style with which to draw on your pad: </h2>
+        </div>
+
+        <div class = "options">
+            <button id = "black" class = "btn"> Black </button>
+            <button id = "rainbow" class = "btn"> Rainbow </button>
+        </div>
     </body>
 </html>
