@@ -1,15 +1,53 @@
 body{
     margin: 0;
-    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(190,190,190);
 }
 
+.pad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sketch-btn, .container{
+    background-color: white;
+}
+
+.sketch-btn{
+    margin-top: 10px;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
-
-    height: 400px;
-    width: 400px;
+    
+    height: 500px;
+    width: 500px;
 
     border: 2px solid black;
-    background-color: aqua;
+    
+}
+
+.box{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    width: 504px;
+
+}
+
+.btn{
+    flex: auto;
+}
+
+#sub-header{
+    margin-top: 40px;
 }
